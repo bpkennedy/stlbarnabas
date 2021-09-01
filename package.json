@@ -1,0 +1,40 @@
+{
+  "name": "stlbarnabas",
+  "version": "1.0.0",
+  "description": "Static Content website for St. Barnabas Episcopal Church",
+  "author": "bpkennedy@gmail.com",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "yarn lint:js"
+  },
+  "engines": {
+    "node": ">= 14.16.0",
+    "npm": "use Yarn instead of Npm",
+    "yarn": ">= 1.22.10"
+  },
+  "dependencies": {
+    "@chakra-ui/nuxt": "^0.3.0",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/emotion": "^0.1.0",
+    "@nuxtjs/markdownit": "^2.0.0",
+    "contentful": "^8.5.0",
+    "core-js": "^3.9.1",
+    "nuxt": "^2.15.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^6.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.22.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.7.0",
+    "sass": "^1.38.2",
+    "sass-loader": "^10"
+  }
+}
